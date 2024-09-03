@@ -1,0 +1,37 @@
+api = {
+  "login": "Skadoosh10",
+  "id": 99174001,
+  "node_id": "U_kgDOBelGcQ",
+  "avatar_url": "https://avatars.githubusercontent.com/u/99174001?v=4",
+  "gravatar_id": "",
+  "url": "https://api.github.com/users/Skadoosh10",
+  "html_url": "https://github.com/Skadoosh10",
+  "followers_url": "https://api.github.com/users/Skadoosh10/followers",
+  "following_url": "https://api.github.com/users/Skadoosh10/following{/other_user}",
+  "gists_url": "https://api.github.com/users/Skadoosh10/gists{/gist_id}",
+  "starred_url": "https://api.github.com/users/Skadoosh10/starred{/owner}{/repo}",
+  "subscriptions_url": "https://api.github.com/users/Skadoosh10/subscriptions",
+  "organizations_url": "https://api.github.com/users/Skadoosh10/orgs",
+  "repos_url": "https://api.github.com/users/Skadoosh10/repos",
+  "events_url": "https://api.github.com/users/Skadoosh10/events{/privacy}",
+  "received_events_url": "https://api.github.com/users/Skadoosh10/received_events",
+  "type": "User",
+  "site_admin": "false",
+  "name": "Zülfikar Babacan Elmalı",
+  "company": "null",
+  "blog": "",
+  "location": "null",
+  "email": "null",
+  "hireable":"null",
+  "bio": "null",
+  "twitter_username": "null",
+  "public_repos": 3,
+  "public_gists": 0,
+  "followers": 4,
+  "following": 2,
+  "created_at": "2022-02-07T09:03:37Z",
+  "updated_at": "2024-09-01T09:56:23Z"
+}
+
+
+print(api["repos_url"])
